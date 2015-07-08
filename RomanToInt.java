@@ -1,9 +1,10 @@
-import java.util.Hashtable;
-
 /**
  * Problem Statement: https://leetcode.com/problems/roman-to-integer/
  * Created by kevin
  */
+
+import java.util.Hashtable;
+
 public class RomanToInt {
     public int romanToInt(String s) {
         Hashtable<Character, Integer> romans = new Hashtable<>();
